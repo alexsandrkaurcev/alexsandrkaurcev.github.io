@@ -5,9 +5,6 @@ body {
     background-color: #f4f4f4;
 }
 
-
-/* Global */
-
 .container {
     width: 80%;
     margin: auto;
@@ -21,11 +18,12 @@ ul {
 
 .button_1 {
     height: 38px;
-    background: #ff0095;
+    background: #ff6600;
     border: 0;
     padding-left: 20px;
     padding-right: 20px;
     color: #ffffff;
+    border-radius: 5px
 }
 
 .dark {
@@ -36,15 +34,12 @@ ul {
     margin-bottom: 10px;
 }
 
-
-/* Header **/
-
 header {
     background: #ffffff;
     color: #000000;
     padding-top: 30px;
     min-height: 70px;
-    border-bottom: #ff0095 3px solid;
+    border-bottom: #ff6600 3px solid;
 }
 
 header a {
@@ -73,9 +68,20 @@ header nav {
     margin-top: 10px;
 }
 
-header .highlight,
+header .highlight2,
+a {
+    color: #ff6600;
+    font-weight: bold;
+}
+
 header .current a {
-    color: #ff0095;
+    color: #00646b;
+    font-weight: bold;
+}
+
+header .highlight,
+a {
+    color: #059797;
     font-weight: bold;
 }
 
@@ -84,12 +90,9 @@ header a:hover {
     font-weight: bold;
 }
 
-
-/* Showcase */
-
 #showcase {
     min-height: 530px;
-    background: url('../img/showcase.jpg') no-repeat;
+    background: url('https://raw.githubusercontent.com/alexsandrkaurcev/pocketcode/main/back.jpg') no-repeat;
     background-position: center;
     background-size: cover;
     text-align: center;
@@ -105,9 +108,6 @@ header a:hover {
 #showcase p {
     font-size: 20px;
 }
-
-
-/* Newsletter */
 
 #newsletter {
     padding: 15px;
@@ -129,9 +129,6 @@ header a:hover {
     height: 25px;
     width: 250px;
 }
-
-
-/* Boxes */
 
 #boxes {
     margin-top: 20px;
@@ -163,16 +160,10 @@ aside#sidebar .quote textarea {
     padding: 5px;
 }
 
-
-/* Main-col */
-
 article#main-col {
     float: left;
     width: 65%;
 }
-
-
-/* Services */
 
 ul#services li {
     list-style: none;
@@ -186,12 +177,9 @@ footer {
     padding: 20px;
     margin-top: 20px;
     color: #ffffff;
-    background-color: #ff0095;
+    background-color: #ff6600;
     text-align: center;
 }
-
-
-/* Media Queries */
 
 @media(max-width: 768px) {
     header #branding,
